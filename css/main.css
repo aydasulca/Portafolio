@@ -1,0 +1,29 @@
+nav{
+  top: 0!important;
+}
+.container-nav{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.fixed{
+  position: fixed;
+}
+#start{
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/fondo.jpg);
+  background-position: 100% 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0!important;
+}
+#aboutMe{
+  height: 90vh;
+}
+#skills{
+  height: 90vh;
+}
+#contact{
+  height: 90vh;
+
+}
