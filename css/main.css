@@ -26,6 +26,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
@@ -42,6 +43,15 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
+  color: #1d9b6c;
+}
+.raleway{
+  font-family: 'Raleway', sans-serif;
+}
+.icon-skills{
+  font-size: 50px;
+}
+.icon-skills:hover{
   color: #1d9b6c;
 }
 .light {
@@ -233,7 +243,10 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 220px;
+  }
+  .content-portfolio {
+    padding-top: 70px;
   }
   .download-section {
     padding: 100px 0;
@@ -307,7 +320,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
-/* Portfolio */
 
 .portfolio {
     padding: 50px 0;
@@ -315,12 +327,72 @@ body {
 
 .portfolio-item {
     margin-bottom: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.img-portfolio {
-    margin: 0 auto;
+div#imagen1{
+  background-image: url("http://www.auditionsfree.com/content/user/2016/10/Lyft-logo-2.png");
+}
+div#imagen2 {
+  background-image: url("https://lh3.googleusercontent.com/MOf9Kxxkj7GvyZlTZOnUzuYv0JAweEhlxJX6gslQvbvlhLK5_bSTK6duxY2xfbBsj43H=w300");
+}
+div#imagen3 {
+  background-image: url("http://www.enbuscade.org/documentos/2016/06/taxi-300x253.png");
+}
+div#imagen4 {
+  background-image: url("http://proactivo.com.pe/wp-content/uploads/2014/01/grifos.jpg");
+}
+div#imagen5 {
+  background-image: url("http://freevectorlogo.net/wp-content/uploads/2012/10/pokemon-logo-vector-400x400.png");
+}
+div#imagen6 {
+  background-image: url("https://pbs.twimg.com/profile_images/781154351960166400/fit06-Ve_400x400.jpg");
+  border-radius: 50%;
+}
+div.img{
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  margin: 0 auto;
+}
+div.info {
+  position:absolute;
+  overflow:hidden;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(31, 31, 31, 0.9);
+  opacity:0;
+  transition: opacity 0.3s;
 }
 
-.img-portfolio:hover {
-    opacity: 0.2;
+div.img:hover div.info {
+  opacity:1;
+}
+
+p.headline {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  font-size: 3.5rem;
+  margin-left: -75px;
+  margin-top: 30px;
+  transition: margin-left 0.3s;
+}
+
+div.img:hover p.headline {
+  margin-left: 80px;
+}
+
+div.button-link {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 200px;
+  transition: margin-top 0.4s;
+}
+
+div.img:hover div.button-link {
+  margin-top: 180px;
 }
