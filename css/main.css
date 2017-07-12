@@ -66,8 +66,7 @@ a:focus {
 }
 .navbar-custom .navbar-toggle {
   color: white;
-  background-color: rgba(255, 255, 255, 0.2);
-  font-size: 12px;
+  font-size: 20px;
 }
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
