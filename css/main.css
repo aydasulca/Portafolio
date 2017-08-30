@@ -334,7 +334,7 @@ body {
 }
 
 div#imagen1{
-  background-image: url("http://www.auditionsfree.com/content/user/2016/10/Lyft-logo-2.png");
+  background-image: url("https://interbank.pe/image/layout_icon?img_id=457427");
 }
 div#imagen2 {
   background-image: url("https://lh3.googleusercontent.com/MOf9Kxxkj7GvyZlTZOnUzuYv0JAweEhlxJX6gslQvbvlhLK5_bSTK6duxY2xfbBsj43H=w300");
@@ -347,9 +347,10 @@ div#imagen4 {
 }
 div#imagen5 {
   background-image: url("http://freevectorlogo.net/wp-content/uploads/2012/10/pokemon-logo-vector-400x400.png");
+  background-color: #96d3a4;
 }
 div#imagen6 {
-  background-image: url("https://files.slack.com/files-tmb/T0NNB6T0R-F6PFYB2GH-d8b32e7f88/image_480.png");
+  background-image: url(../img/labo.png);
 }
 div.img{
   width: 300px;
