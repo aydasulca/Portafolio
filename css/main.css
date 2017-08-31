@@ -100,7 +100,9 @@ a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: rgba(255, 255, 255, 0.3);
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+  background-color: rgba(255, 255, 255, 0.6);
+
 }
 .navbar-custom .nav li.active a:hover {
   color: white;
@@ -134,6 +136,7 @@ a:focus {
   width: 100%;
   height: auto;
   position: absolute;
+  transform: translateY(-13%);
   z-index: -1;
 }
 video {
