@@ -128,12 +128,19 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-  background-color: black;
+
+  /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
+  background-color: rgba(0, 0, 0, 0.5);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 .intro .intro-body {
   display: table-cell;
