@@ -136,7 +136,7 @@ a:focus {
   width: 100%;
   height: auto;
   position: absolute;
-  transform: translateY(-13%);
+  transform: translateY(-5%);
   z-index: -1;
 }
 video {
